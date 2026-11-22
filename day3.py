@@ -96,7 +96,47 @@
 
 #"Ternary Operators"
 
-a=45
-b=20
-min=a if a<b else b
-print(min)
+# a=45
+# b=20
+# min=a if a<b else b
+# print(min)
+
+#Example problems solving
+
+# Student_name=str(input("Enter your Name: "))
+# Student_age=int(input("Enter your Age: "))
+# College_name=str(input("Enter your college Name: "))
+# Degree=str(input("Enter your Degree: "))
+# print("Name:",Student_name)
+# print("Age:",Student_age)
+# print("CollegeName:",College_name)
+# print("Degree:",Degree)
+
+
+# Birth_year=int(input("Enter your Birthyear: "))
+# current_year=2026
+# print("Your age is:",current_year-Birth_year)
+
+
+# product_1=(input("Enter the product name: "))
+# price_1=int(input("Enter the price: "))
+# product_2=(input("Enter the second Product: "))
+# price_2=int(input("Enter the price: "))
+# product_3=(input("Enter the third product: "))
+# price_3=int(input("Enter the price: "))
+# customer=price_1+price_2+price_3
+# print("Total cost of the three products is:",customer)
+
+
+# monthly_salary = int(input("Enter your current salary: "))
+# annual_salary = monthly_salary*12
+# print("Your monthly salary is:",monthly_salary)
+# print("Your annual salary is:",annual_salary)
+
+principle_amount=int(input("Enter your principle amount: "))
+annual_interest=int(input("Enter your annuual intrest rate: "))
+time_period=int(input("Enter time in years: "))
+simple_intrest=principle_amount*annual_interest*time_period/100
+total_amount=principle_amount+annual_interest+time_period
+print("The simple intrest is:",simple_intrest)
+print("Your total amount is:",total_amount)
