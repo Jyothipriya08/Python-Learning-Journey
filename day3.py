@@ -133,10 +133,18 @@
 # print("Your monthly salary is:",monthly_salary)
 # print("Your annual salary is:",annual_salary)
 
-principle_amount=int(input("Enter your principle amount: "))
-annual_interest=int(input("Enter your annuual intrest rate: "))
-time_period=int(input("Enter time in years: "))
-simple_intrest=principle_amount*annual_interest*time_period/100
-total_amount=principle_amount+annual_interest+time_period
-print("The simple intrest is:",simple_intrest)
-print("Your total amount is:",total_amount)
+# principle_amount=int(input("Enter your principle amount: "))
+# annual_interest=int(input("Enter your annuual intrest rate: "))
+# time_period=int(input("Enter time in years: "))
+# simple_intrest=principle_amount*annual_interest*time_period/100
+# total_amount=principle_amount+annual_interest+time_period
+# print("The simple intrest is:",simple_intrest)
+# print("Your total amount is:",total_amount)
+
+
+Length=int(input("Enter the length of the Rectangle: "))
+Breadth=int(input("Enter the width of the Rectangle: "))
+Area=Length*Breadth
+Perimeter=2*Length+Breadth
+print(f"The area of the Rectangle is:{Area}")
+print(f"The perimeter of the Rectangle is:{Perimeter}")
