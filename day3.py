@@ -142,9 +142,9 @@
 # print("Your total amount is:",total_amount)
 
 
-Length=int(input("Enter the length of the Rectangle: "))
-Breadth=int(input("Enter the width of the Rectangle: "))
-Area=Length*Breadth
-Perimeter=2*Length+Breadth
-print(f"The area of the Rectangle is:{Area}")
-print(f"The perimeter of the Rectangle is:{Perimeter}")
+# Length=int(input("Enter the length of the Rectangle: "))
+# Breadth=int(input("Enter the width of the Rectangle: "))
+# Area=Length*Breadth
+# Perimeter=2*Length+Breadth
+# print(f"The area of the Rectangle is:{Area}")
+# print(f"The perimeter of the Rectangle is:{Perimeter}")
