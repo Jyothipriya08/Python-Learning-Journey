@@ -8,11 +8,17 @@
 # print("The total marks of all subjects is:",Total_marks)
 # print("The Average marks of all five subjects is:",Average_marks)
 
-age_1=int(input("Enter the age1: "))
-age_2=int(input("Enter the age2: "))
-print(age_1>age_2)
-print(age_1<age_2)
-print(age_1!=age_2)
-print(age_1==age_2)
-print(age_1>=age_2)
-print(age_1<=age_2)
+# age_1=int(input("Enter the age1: "))
+# age_2=int(input("Enter the age2: "))
+# print(age_1>age_2)
+# print(age_1<age_2)
+# print(age_1!=age_2)
+# print(age_1==age_2)
+# print(age_1>=age_2)
+# print(age_1<=age_2)
+
+for num in range(10, 14):
+    for i in range(2, num):
+        if num%i==1:
+            print(num)
+            break
