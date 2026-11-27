@@ -6,5 +6,11 @@
 #     print(i)
 
 #FOR LOOP- 5 table
-for i in range(5, 26, 5):
+# for i in range(5, 26, 5):
+#     print(i)
+
+# for i in range(5):
+#     print("Python")
+
+for i in range(2, 11, 2):
     print(i)
